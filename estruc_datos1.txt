@@ -1,0 +1,26 @@
+estructura de datos -> estaticas - dinamicas
+
+estaticas -> tamaño definido -> array (int arr[n]) no se puede (int arr[n+1])
+	  -> en caso de llenar el array y necesitar guardar mas datos (int arr2[n*2])
+
+	  -> (pair) pair <a, b> -> diccionarios
+
+dinamicas  -> tamaño no definido -> vector <int> v1
+
+
+array -> int arr[5];
+      -> [ , , , , ]
+      -> [0,1,2, , ]
+      -> [1,2,3,4,5] -> en caso de querer almacenar otro valor se necesita redimensionar el array
+
+vector -> vector <int> v1;
+      -> []
+      -> [0,1,2,3, ... ,10] -> este usa punteros como indices, el primero apunta al valor 0 y el final al un valor nulo(no existente)
+
+PUNTEROS
+
+revisar como se maneja la memoria al amacenar variables cn variables dinamicas
+
+
+& -> direccion -> exadecimal 
+* -> puntero -> estudiar (son direcciones que me dicen como llegar a la direccion )
